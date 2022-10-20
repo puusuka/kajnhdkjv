@@ -1,0 +1,228 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+.header {
+  color: gray;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header-ttl {
+  font-size: 24px;
+  width: 80px;
+}
+
+.header-nav-list {
+  display: flex;
+  font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+  margin-right: 30px;
+}
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  position: relative;
+  margin: 10px 0 0 auto;
+  display: block;
+  width: 60%;
+  z-index: 3;
+}
+
+.red-box {
+  position: absolute;
+  top: 300px;
+  right: 600px;
+  display: block;
+  font-size: 20px;
+  z-index: 5;
+  color: fuchsia;
+}
+
+.text {
+  position: absolute;
+  top: 330px;
+  right: 660px;
+  display: block;
+  font-size: 14px;
+  z-index: 5;
+  
+}
+.mood{
+  position: absolute;
+    top: 80px;
+    right: 400px;
+    display: block;
+    font-size: 50px;
+    z-index: 5;
+    font-family: "Indie Flower", cursive;
+    color: fuchsia;
+}
+.jyouhou{
+  position: relative;
+  margin: 100px 0 0 200px;
+  display: block;
+  width: 60%;
+  z-index: 3;
+  color: gray;
+  font-size: 23px;
+
+}
+.ull {
+  width: 1000px;
+}
+.liii {
+    display: flex;
+    margin-left: 12px;
+    padding-bottom: 15px;
+    padding-top: 30px;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+  }
+
+.lii {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #000;
+}
+
+
+.label {
+  background-color: fuchsia;
+  border-radius: 10px;
+  color: #fff;
+  padding: 2px 5px;
+  margin: 0 20px;
+}
+.sinchaku{
+  position: absolute;
+    top: 50px;
+    left: 60px;
+    right: 60px;
+    display: block;
+    font-size: 20px;
+    z-index: 5;
+    color: fuchsia;
+}
+.yu{
+  position: absolute;
+  display: block;
+  margin-top: -60px;
+  margin-left:  200px;
+  font-family: "Indie Flower", cursive;
+  color: fuchsia;
+}
+.hinichi{
+  color: gray;
+}
+.nyusu{
+  color: gray;
+}
+.relative {
+  position: relative;
+}
+.relbox{
+    position: relative;
+    margin: 500px 0 0 500px;
+    display: block;
+
+  }
+.tech {
+  position: absolute;
+  display: block;
+  width: 60%;
+  z-index: 3;
+  color: gray;
+  font-size: 23px;
+  z-index: 1;
+
+}
+.al {
+  position: absolute;
+  display: block;
+  font-size: 20px;
+  margin-top: -60px;
+  margin-left: 70px;
+  z-index: 5;
+  color: fuchsia;
+  font-family: "Indie Flower", cursive;
+}
+.gr{
+  position: absolute;
+    display: block;
+    background-color: silver;
+    margin-top: -100px;
+    margin-left: -500px;
+    height: 450px;
+    width: 1400px;
+}
+
+.talk
+   {position: absolute;
+    display: block;
+    margin-left: -300px;
+    top: 100px;
+    
+   }
+.shasin
+{
+    position: absolute;
+    display: block;
+    margin-left: 200px;
+    top: 100px;
+    z-index: 3;
+  }
+    .relative {
+      position: relative;
+    }
+  .servbox
+    {position: relative;
+      margin: 0 1000px 0 0px;
+      display: block;
+      
+    }
+    .serves
+    {position: absolute;
+     display: block;
+ }
+.grid__parent {
+  position: absolute;
+  display: grid;
+  grid-template-rows: 100px 300px 300px;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.box1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background: #004e4e;
+}
+.box2 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  background: #008888;
+}
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: #049fb3;
+}
+.box4 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background: #55bbbb;
+}
+.box5 {
+  grid-column: 2/4;
+  grid-row: 3/4;
+  background: #8aacac;
+}
