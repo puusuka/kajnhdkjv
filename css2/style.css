@@ -534,60 +534,94 @@ a {
     z-index: 30;
 
   }
-
-.absolute＿saiyoujyouhouimg
-{position: absolute;
+.flex box
+{
+  display: flexbox;
+}
+.relative＿saiyoujyouhouimg
+{position: relative;
 display: block;
-top: 600px;
-left: -100px;
-text-align: center;
+left: -200px;
 z-index: 30;
+width: 50%;
+height: 50%;
+top: 165px;
 
 }
 .absolute＿saiyoujyouhou
 {
     position: absolute;
     display: block;
-    top: 80px;
+    top: 120px;
     left: 250px;
     text-align: center;
     z-index: 40;
     color: white;
     font-size: 30px;
-
+    z-index: 100;
   }
-
-
+.saiyoujyouhou
+{
+    position: absolute;
+    display: block;
+    left: 250px;
+    text-align: center;
+    z-index: 40;
+    color: palevioletred;
+    font-size: 30px;
+    z-index: 100;
+  }
 .absolute＿inteimg
 {
     position: absolute;
     display: block;
-  top: 600px;
+    width: 50%;
     left: 500px;
-
-    font-family: "Indie Flower",
-      cursive;
     z-index: 30;
-
+    bottom: -88px;
   }
 .saiyoujyouhou
  {
-   position: absolute;
+   position: relative;
    display: block;
-   top: 80px;
+   top: -20px;
    left: 200px;
-   text-align: center;
+   
    z-index: 40;
    color: white;
    font-size: 30px;
 
  }
+ th {
+ 
+
+   border: solid 1px;
+   /* 枠線指定 */
+   width: 200px;
+   height: 50px;
+   background-color: #838383;
+   text-align: left;
+   height: 1rem;
+  vertical-align: middle;
+ }
+   
+  
+  td {border: solid 1px;
+    /* 枠線指定 */
+    width: 600px;
+    height: 50px;
+    vertical-align: middle;}
+
+ table {
+   border-collapse: collapse;
+   /* セルの線を重ねる */
+ }
 .absolute＿kochiraoto
 {
-    position: absolute;
+    position: relative;
     display: block;
     top: 200px;
-    left: 430px;
+    left: 300px;
     z-index: 40;
     color: grey;
     font-size: 15px;
@@ -611,9 +645,9 @@ z-index: 30;
       padding: 20px 0;
       color: #fff;
       border-radius: 30px;
-      background: linear-gradient(90deg, #ff5800, #8b00be);
+      background: linear-gradient(90deg, #CC3399, #993366);
       text-align: center;
-      box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.2);
+      box-shadow:inset 5px -10px 10px black ;
       margin: 100px auto 0;
       display: block;
       top: 770px;
@@ -627,3 +661,28 @@ z-index: 30;
             left: 350px;
             z-index: 100;
           }
+  .absolute＿chosakukenn{
+
+    position: absolute;
+      margin: 112px 0 0 15px;
+      display: block;
+      top: 1000px;
+      left: 350px;
+  }
+  .absolute＿haikei{
+  
+      position: absolute;
+      display: block;
+      right: -800px;
+      z-index: 100;
+      width: 1500px;
+      height: 30px;
+      background-color: #838383;
+      z-index: 10;
+    }
+  .absolute＿chosakukennn{
+    position: absolute;
+      display: block;
+    z-index: 200;
+    top: 9px;
+  }
